@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #1e1e1e;
+    height: 80px;
+    width:100%;
+}
+header h1{
+    position:absolute;
+    left:80px;
+    top: 0px;
+    line-height:80px;
+    background-image:url(images/fishbone-fish-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(80%);
+    width:40px;
+    text-indent: -9999px;
+}
+header h1:hover{
+    background-image:url(images/mood-tongue-svgrepo-com.svg);
+    filter: invert(80%);
+}
+header ul{
+    font-size: 20px;
+    position:absolute;
+    right:2vw;
+    top:0px;
+    line-height:80px;
+}
+header li{
+    display:inline;
+    margin-right: 3vw;
+}
+header a{
+    color:rgb(221, 171, 171);
+    text-decoration:none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+
+.about {
+    background-color:#1e1e1e;
+    height:100%;
+    display:flex;
+    }
+.photo{
+        background-color:orange;
+        border-radius: 50px 0 0 50px;
+        width: 50%;
+    }
+.about img{
+        position: absolute;
+        top: 150px;
+        left: 25%;
+        width: 250px;
+        box-shadow: 10px 10px 5px #343434;
+        border-radius:25px;
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+.about img:hover{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+.info{
+    width:50%;
+    background-color:orange;
+    border-radius: 0 30px 30px 0;
+}
+.about h1{
+    font-size:60px;
+    line-height: 100px
+}
+.about p{
+    font-size:25px;
+    margin: 0 0 35px 0;
+}
+
+
+.experience{
+    background-color: #2e2e2e;
+    color:rgba(222, 148, 148, 0.845);
+    font-size: 35px;
+    padding: 40px 0 0 150px;
+}
+.intern{
+    padding:25px 0 0 25px ;
+}
+.intern h2{
+    font-size: 20px;
+}
+.intern h3{
+    font-size:30px;
+}
+.intern p{
+    font-size:20px;
+}
+.intern_skill{
+    padding-top: 10px;
+    font-size:20px;
+    display:flex;
+}
+.intern_skill p{
+    padding: 1px ;
+    margin-right: 1vw;
+    background-color: rgba(242, 168, 255, 0.998);
+    color: rgb(64, 64, 255);
+    border-radius: 20px;
+}
+.intern:hover{
+    background-color:#434343;
+    color:rgba(222, 148, 206, 0.918);
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.project{
+    background-color: #2e2e2e;
+    color:rgba(222, 148, 148, 0.845);
+    font-size: 35px;
+    padding: 40px 0 0 150px;
+}
+.project1{
+    padding:25px 0 0 25px ;
+}
+.project1 h2{
+    font-size: 20px;
+}
+.project1 h3{
+    font-size:30px;
+}
+.project1 p{
+    font-size:20px;
+}
+.project1_skill{
+    padding-top: 10px;
+    font-size:20px;
+    display:flex;
+}
+.project1_skill p{
+    padding: 1px ;
+    margin-right: 1vw;
+    background-color: rgba(242, 168, 255, 0.998);
+    color: rgb(64, 64, 255);
+    border-radius: 20px;
+}
+.project1:hover{
+    background-color:#434343;
+    color:rgba(222, 148, 206, 0.918);
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+
+.project2{
+    padding:25px 0 0 25px ;
+}
+.project2 h2{
+    font-size: 20px;
+}
+.project2 h3{
+    font-size:30px;
+}
+.project2 p{
+    font-size:20px;
+}
+.project2_skill{
+
+    padding-top: 10px;
+    font-size:20px;
+    display:flex;
+}
+.project2_skill p{
+    padding: 1px ;
+    margin-right: 1vw;
+    background-color: rgba(248, 176, 255, 0.998);
+    color: blue;
+    border-radius: 20px;
+}
+.project2:hover{
+    background-color:#434343;
+    color:rgba(222, 148, 206, 0.918);
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #1e1e1e;
+    height: 60px;
+    color: rgb(221, 171, 171);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 14px;
+}
+.menu{
+    display:none;
+}
+
+/*响应式设计语法 */
+@media screen and (max-width:768px){
+    header ul{
+        display:none;
+    }
+    header h1{
+        left:50%;
+        transform:translateX(-50%);
+    }
+    .menu{
+        display:block;
+        background-color:transparent;
+        color:white;
+        font-size:35px;
+        position:absolute;
+        top:15px;
+        left:20px;
+        border:none;
+        cursor:pointer;
+    }
+
+
+}
