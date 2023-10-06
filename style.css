@@ -229,4 +229,40 @@ footer{
     }
 
 
+    .about {
+        background-color:#1e1e1e;
+        height:100%;
+        flex-direction: column;
+        }
+    .photo{
+            background-color:orange;
+            border-radius: 50px 0 0 50px;
+            width: 50%;
+        }
+    .about img{
+        display:none;
+    }
+    
+    .info{
+        width:100%;
+        background-color:orange;
+        border-radius: 30px;
+    }
+    .about h1{
+        font-size:60px;
+        line-height: 100px;
+        margin: 5%;
+    }
+    .about h2{
+        margin:0 0 0 5%;
+    }
+    .about h3{
+        margin:0 0 0 5%;
+    }
+    .about p{
+        font-size:25px;
+        margin:0 0 0 5%;
+    }
+
+
 }
