@@ -13,7 +13,7 @@ header h1{
     left:80px;
     top: 0px;
     line-height:80px;
-    background-image:url(fishbone-fish-svgrepo-com.svg);
+    background-image:url(images/fishbone-fish-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-position: center;
     filter: invert(80%);
@@ -21,7 +21,7 @@ header h1{
     text-indent: -9999px;
 }
 header h1:hover{
-    background-image:url(mood-tongue-svgrepo-com.svg);
+    background-image:url(images/mood-tongue-svgrepo-com.svg);
     filter: invert(80%);
 }
 header ul{
