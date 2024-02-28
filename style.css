@@ -128,31 +128,31 @@ header a:hover{
     border-radius: 20px;
 }
 
-.ME{
+.me{
     padding:25px 0 0 25px ;
 }
-.ME h2{
+.me h2{
     font-size: 20px;
 }
-.ME h3{
+.me h3{
     font-size:30px;
 }
-.ME p{
+.me p{
     font-size:20px;
 }
-.ME_skill{
+.me_skill{
     padding-top: 10px;
     font-size:20px;
     display:flex;
 }
-.ME_skill p{
+.me_skill p{
     padding: 1px ;
     margin-right: 1vw;
     background-color: rgba(242, 168, 255, 0.998);
     color: rgb(64, 64, 255);
     border-radius: 20px;
 }
-.ME:hover{
+.me:hover{
     background-color:#434343;
     color:rgba(222, 148, 206, 0.918);
     transition: 0.4s;
